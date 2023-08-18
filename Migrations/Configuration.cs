@@ -33,6 +33,11 @@ namespace ZooApp.Models.Migrations
 }
 
 
+
+//create an connection string on App.config:
+//<add name="ZooContext" connectionString="server=.\SQLEXPRESS;
+//database=ZooDb; integrated security=true;" providerName="System.Data.SqlClient"/>
+
 // Enable-Migrations -Verbose
 
 
