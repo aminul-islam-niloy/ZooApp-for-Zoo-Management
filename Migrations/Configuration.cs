@@ -24,9 +24,9 @@ namespace ZooApp.Models.Migrations
             //  You can use the DbSet<T>.AddOrUpdate() helper extension method
             //  to avoid creating duplicate seed data.\
 
-            context.Animals.Add(new Animal() { Food = "Meat", Name = "Tiger", Origin = "Sundorbon", Quantity = 20 });
+            context.Animals.Add(new Animal() { Food = "Leaf", Name = "Dear", Origin = "Sundorbon", Quantity = 70 });
             context.SaveChanges();
-
+            
 
         }
     }
